@@ -1,26 +1,28 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
-  "difficulty": "beginner",
-  "time": "2 minutes",
-  "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
-    "intro": {
-      "text": "intro.md",
-      "credits": ""
+    "title": "ArangoDB Getting Started ",
+    "description": "Learn how to use ArangoDB",
+    "difficulty": "easy",
+    "time": "10 minutes",
+    "details": {
+        "steps": [
+            {
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
     },
-    "finish": {
-      "text": "finish.md"
+    "environment": {
+        "hideintro": true,
+        "uilayout": "terminal",
+        "showdashboard": true, 
+        "dashboards": [ {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-8529-[[KATACODA_HOST]].environments.katacoda.com"}]
+    },
+    "backend": {
+        "imageid": "ubuntu"
     }
-  },
-  "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
-  },
-  "backend": {
-    "imageid": "bash"
-  }
 }
