@@ -1,5 +1,5 @@
-## Start HTTP Server
-`docker run -p 8529:8529 -d arangodb/arangodb`{{execute}}
+## Start ArangoDB
+`docker run -e ARANGO_ROOT_PASSWORD=test123 -p 8529:8529 -d arangodb/arangodb`{{execute}}
 
 ## Test
 `curl localhost`{{execute}}
