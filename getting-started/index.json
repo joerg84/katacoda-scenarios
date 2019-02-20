@@ -19,6 +19,7 @@
     "environment": {
         "hideintro": true,
         "uilayout": "terminal",
+        "organisation": "arangodb",
         "showdashboard": true, 
         "dashboards": [{"name": "ArangoDB UI", "port": 8529},
                        {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-8529-[[KATACODA_HOST]].environments.katacoda.com"}],
