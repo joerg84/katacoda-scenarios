@@ -2,11 +2,16 @@
     "title": "ArangoDB Getting Started ",
     "description": "Learn how to use ArangoDB",
     "difficulty": "easy",
-    "time": "5 minutes",
+    "time": "10 minutes",
     "details": {
         "steps": [
             {
+                "title": "Starting ArangoDB",
                 "text": "step1.md"
+            },
+            {
+              "title": "Create the document",
+              "text": "step2.md"
             }
         ],
         "intro": {
