@@ -10,7 +10,7 @@
                 "text": "step1.md"
             },
             {
-              "title": "Create the document",
+              "title": "Adding the first document",
               "text": "step2.md"
             }
         ],
@@ -26,7 +26,8 @@
         "uilayout": "terminal",
         "organisation": "arangodb",
         "showdashboard": true, 
-        "dashboards": [{"name": "ArangoDB UI", "port": 8529}],
+        "dashboards": [{"name": "ArangoDB UI", "port": 8529},
+                        {"name":"Documentation", "href":"https://docs.arangodb.com/latest/Manual/"}] ,
                        "uilayout": "terminal-iframe"
     },
     "backend": {
